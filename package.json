@@ -3,10 +3,21 @@
   "name": "thumbdrop",
   "description": "dubdrop compatible task for reading an image file and creating a thumbnail.",
   "version": "0.0.1",
-  "homepage": "https://github.com/drk/thumbdrop",
+  "homepage": "https://github.com/derekr/thumbdrop",
   "repository": {
-    "url": "https://github.com/drk/thumbdrop"
+    "url": "https://github.com/derekr/thumbdrop"
   },
+  "keywords": [
+    "browser",
+    "file upload",
+    "files",
+    "drag and drop",
+    "drag",
+    "drop",
+    "file",
+    "thumbnail",
+    "dubdrop"
+  ],
   "main": "./lib/index.js",
   "scripts": {
     "start": "beefy ../lib/index.js:thumbdrop.js --cwd ./example --open -- -r ./lib/index.js:thumbdrop",
