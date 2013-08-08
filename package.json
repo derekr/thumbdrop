@@ -1,0 +1,24 @@
+{
+  "author": "drk <drk@diy.org> (drk.es)",
+  "name": "thumbdrop",
+  "description": "dubdrop compatible task for reading an image file and creating a thumbnail.",
+  "version": "0.0.1",
+  "homepage": "https://github.com/drk/thumbdrop",
+  "repository": {
+    "url": "https://github.com/drk/thumbdrop"
+  },
+  "main": "./lib/index.js",
+  "scripts": {
+    "start": "beefy ../lib/index.js:thumbdrop.js --cwd ./example --open -- -r ./lib/index.js:thumbdrop",
+    "test": "tap ./test/*.js"
+  },
+  "devDependencies": {
+    "beefy": "~0.4.1",
+    "browserify": "~2.26.0",
+    "tap": "~0.3.1"
+  },
+  "optionalDependencies": {},
+  "engines": {
+    "node": ">=0.6"
+  }
+}
